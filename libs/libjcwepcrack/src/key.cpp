@@ -7,6 +7,8 @@
  *
  */
 #include <iostream>
+#include <cstring> //memcpy
+
 #include <stdio.h>
 #include "key.h"
 
