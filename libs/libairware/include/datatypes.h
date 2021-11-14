@@ -1,6 +1,9 @@
 #ifndef DATATYPES_H
 #define DATATYPES_H
 #include "typedefs.h"
+//---- jc 2021 edition: Compiler tigtened up on these
+#include <cstring> // memcpy
+#include <stdlib.h> // exit (in lieu of assert) .. fix some day
 #include <pcap.h>
 #include <list>
 #include <vector>
