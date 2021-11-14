@@ -1,3 +1,8 @@
+# Airbase
+Airbase: 2021 edition
+I thought it would be fun to try and compile the largest single C++ code base i ever maintained > 10 years after last maintenance. Hence airbase-2021:
+
+
 In order to inject any packets with the tools included in airbase then 
 you will need to have lorcon installed. Lorcon is typically available from
 svn co https://www.nycccp.net/svn/tx-8021
@@ -19,6 +24,3 @@ cd ..
 
 Also, if you are interested you can build jc-aircrack and jc-wepcrack.
 
-Many thanks to my wife jnycrpto for (mostly) leaving me alone for hours
-on end to work on this. And as always thanks to nologin.org and uninformed
-research for the ideas and help.
