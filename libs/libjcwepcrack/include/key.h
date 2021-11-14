@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <netinet/in.h>
+#include <cstring> //memcpy
 #include "config.h"
 #include "wepcrack_datatypes.h"
 #include <iostream>
