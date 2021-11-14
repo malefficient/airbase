@@ -1,0 +1,22 @@
+
+
+Add a function to abstract away which DLT'S are supported. checking fro 3 is getting
+annoying.
+
+
+This casting trick is no good. It bypassess calling Init functions
+which can do important work (see airware-test/print example) for where
+this was originally deduced.
+
+Learn enough about c++ to determine why it seems like casting
+Packet_80211_data *'s to Packet_80211 variables works correctly
+and how to make sure it stays that way. (see test-airware/print for example) 
+The data packet is actually a pointer. This is a cool good thing i want
+to keep working. 
+
+Implement Packet_80211_mgmt once above question answered
+
+Start building Crafters. 
+
+make misc/hexstring2value do some rigorous input validiation before
+calling strtoul.

@@ -1,0 +1,10 @@
+Other peoples bugs:
+Some cards append the 802.11 FCS to the end of a pcap
+packet. There is no way to determine which cards/drivers
+are doing this (or if a pcap file has these 4 unwanted bytes)
+except a) ask the user all the time if they have 4 extra bytes at the end
+       b) When initializing a Packet_80211 check to see if the last 4 bytes
+	   do in fact equal the correct FCS for the packet. If they do, politely
+	   remove them for the user. This could theoretically result in incorrectly
+	   mangled packets. I would be happy to remove it if DLT_IEEE802_11 was
+	   very rigorously defined. Until then, this seems to work well. 
