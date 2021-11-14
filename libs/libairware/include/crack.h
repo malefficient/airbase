@@ -3,6 +3,7 @@
 #include "airware.h"
 #include <algorithm>
 #include <netinet/in.h> //ntohl
+#include <unistd.h> // sleep
 
 //This file contains misc routines that could be useful to various
 //programs analyzing statistical attacks on wep.
